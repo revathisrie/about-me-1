@@ -1,0 +1,69 @@
+
+body {
+  box-sizing: border-box;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+main {
+  width: 1000px;
+  background-color: lightgray;
+  margin: 10px auto;
+  padding: 20px; 
+  height: 1000px; 
+}
+
+header {
+  background-color: white;
+  width: auto;
+  margin: 10px;
+  padding: 20px;
+}
+section {
+  background-color: white;
+  width: auto;
+  height: 500px;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+#image {
+  display: inline-block;
+  float: left;
+  width: 400px;
+  height: auto;
+
+}
+
+#profile {  
+  width: 300px;
+}
+
+#about {
+  display: inline-block;
+  float: right;
+  width: 400px;
+  height: 400px;
+  padding: 50px 100px 0px 0px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: left;
+  width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
+}
