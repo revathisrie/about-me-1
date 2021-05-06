@@ -23,7 +23,7 @@ header {
 section {
   background-color: white;
   width: auto;
-  height: 500px;
+  height: 825px;
   margin: 10px;
   padding: 20px;
   
@@ -44,9 +44,10 @@ section {
 #about {
   display: inline-block;
   float: right;
+  line-height: 1.5em;
   width: 400px;
-  height: 400px;
-  padding: 50px 100px 0px 0px;
+  height: 900px;
+  padding: 0px 100px 0px 0px;
 }
 
 h1 {
@@ -58,6 +59,19 @@ h1 {
 
 p {
   padding: 10px;
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+li {
+  margin-top: 5px;
+}
+
+h2 {
+  margin-top: 5px;
 }
 
 footer {
