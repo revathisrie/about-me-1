@@ -4,8 +4,16 @@ let userName = prompt('What is your name?');
 
 console.log(userName);
 
-// Question 1
+questionBeer();
+questionCostume();
+questionAge();
+questionGame();
+questionHalloween();
+numberGame();
+movieGame();
 
+// Question 1
+function questionBeer(){
 let beer = prompt('Do you like beer?');
 console.log(beer);
 
@@ -22,9 +30,13 @@ if (lowerCaseBeer === 'yes' || lowerCaseBeer === 'y') {
 } else {
   alert('Please answer yes or no');
 }
+console.log(beer);
+}
+
 
 // Question 2
 
+function questionCostume(){
 let suit = prompt('Do you like my suit?');
 
 let lowerCaseSuit = suit.toLowerCase();
@@ -40,9 +52,11 @@ if (lowerCaseSuit === 'yes' || lowerCaseSuit === 'y') {
 } else {
   alert('Please answer yes or no');
 }
+}
 
 // Question 3
 
+function questionAge(){
 let age = prompt('Am I over 40?');
 
 let lowerCaseAge = age.toLowerCase();
@@ -58,9 +72,11 @@ if (lowerCaseAge === 'yes' || lowerCaseAge === 'y') {
 } else {
   alert('Please answer yes or no');
 }
+}
 
 // Question 4
 
+function questionGame(){
 let game = prompt('Do you want to play a game?');
 
 let lowerCaseGame = game.toLowerCase();
@@ -76,9 +92,10 @@ if (lowerCaseGame === 'yes' || lowerCaseGame === 'y') {
 } else {
   alert('Please answer yes or no');
 }
+}
 
 // Question 5
-
+function questionHalloween(){
 let halloween = prompt('Do you like Halloween?');
 
 let lowerCaseHalloween = halloween.toLowerCase();
@@ -94,11 +111,13 @@ if (lowerCaseHalloween === 'yes' || lowerCaseHalloween === 'y') {
 } else {
   alert('Please answer yes or no');
 }
+}
 
 alert('Thanks for visiting my website ' + userName);
 
 // Number guessing game
 
+function numberGame(){
 let counter1 = 3;
 
 while (counter1 > -1) {
@@ -114,9 +133,9 @@ while (counter1 > -1) {
   counter1--;
 }
 alert('The correct answer was 7');
-
+}
 // Movie guessing game
-
+function movieGame(){
 let pointArray = [] // Creates an array for the number attempts
 let correctMovies = ['scott pilgrim', 'ghost world'] // Correct answers
 let counter = 6; // Counter for 6 guesses
@@ -147,4 +166,5 @@ while (rightAnswer === false && counter > 0) { // While loop. if var right Answe
 
   console.log(pointArray) // console.log check
 
+}
 }
